@@ -39,7 +39,7 @@
   -ms-user-select: none;
   user-select: none;
   color: blackboard;
-  background-color: red;
+  background-color: #72aeff;
 }
 .btn2 {
   display: inline-block;
@@ -62,7 +62,7 @@
   -ms-user-select: none;
   user-select: none;
   color: blackboard;
-  background-color: red;
+  background-color: #72aeff;
 }
 .java {
 display: none;

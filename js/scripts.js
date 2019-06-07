@@ -19,7 +19,7 @@ $(".btn2").click(function(){
       $(".python").hide();
       $(".ruby").hide();
       $(".elite").hide();
-    } else if (score <=4){
+    } else if (score <=4 && score >=0.5){
       $(".python").show();
       $(".java").hide();
       $(".ruby").hide();
