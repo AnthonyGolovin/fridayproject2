@@ -19,21 +19,29 @@ $(".btn2").click(function(){
       $(".python").hide();
       $(".ruby").hide();
       $(".elite").hide();
+      $(".jumbotronanswer").hide();
+      $(".btn2").hide();
     } else if (score <=4 && score >=0.5){
       $(".python").show();
       $(".java").hide();
       $(".ruby").hide();
       $(".elite").hide();
+      $(".jumbotronanswer").hide();
+      $(".btn2").hide();
     } else if (score >=6){
       $(".ruby").show();
       $(".java").hide();
       $(".python").hide();
       $(".elite").hide();
+      $(".jumbotronanswer").hide();
+      $(".btn2").hide();
     } else if (score = 0,5){
       $(".elite").show();
       $(".java").hide();
       $(".python").hide();
       $(".ruby").hide();
+      $(".jumbotronanswer").hide();
+      $(".btn2").hide();
     }
   });
 });
