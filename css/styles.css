@@ -69,17 +69,21 @@
 }
 .java {
 display: none;
-
 }
 .python {
 display: none;
-
 }
 .ruby {
 display: none;
-
 }
 .elite {
   display: none;
-
+}
+.preview {
+width: 500px;
+height: 400px;
+float: left;
+margin-left: 25px;
+margin-right: 50px;
+margin-top: 50px;
 }
