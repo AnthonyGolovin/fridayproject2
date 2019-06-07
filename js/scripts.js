@@ -15,28 +15,28 @@ $(".btn2").click(function(){
   var score = results(q1, q2, q3, q4, q5);
 
     if (score == 10){
-      $(".java").show();
+      $(".java").fadeIn();
       $(".python").hide();
       $(".ruby").hide();
       $(".elite").hide();
       $(".jumbotronanswer").hide();
       $(".btn2").hide();
     } else if (score <=4 && score >=0.5){
-      $(".python").show();
+      $(".python").fadeIn();
       $(".java").hide();
       $(".ruby").hide();
       $(".elite").hide();
       $(".jumbotronanswer").hide();
       $(".btn2").hide();
     } else if (score >=6){
-      $(".ruby").show();
+      $(".ruby").fadeIn();
       $(".java").hide();
       $(".python").hide();
       $(".elite").hide();
       $(".jumbotronanswer").hide();
       $(".btn2").hide();
     } else if (score = 0,5){
-      $(".elite").show();
+      $(".elite").fadeIn();
       $(".java").hide();
       $(".python").hide();
       $(".ruby").hide();
