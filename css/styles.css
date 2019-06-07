@@ -7,6 +7,7 @@
   border-bottom-style: solid;
   border-color: #4286f4;
   border-width: 5px;
+
 }
 .jumbotronnav {
 
@@ -21,7 +22,7 @@
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #eeeeee; 
   text-align: center;
   font-size: 20px;
 }
@@ -132,4 +133,8 @@ margin-top: 50px;
 }
 a:hover {
   background-color: yellow;
+}
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,131,129,1) 0%, rgba(54,111,148,1) 0%, rgba(92,173,236,1) 36%, rgba(54,84,172,1) 74%);
 }
