@@ -159,3 +159,7 @@ body {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,131,129,1) 0%, rgba(54,111,148,1) 0%, rgba(92,173,236,1) 36%, rgba(54,84,172,1) 74%);
 }
+img {
+  border-color: #4286f4;
+  border-radius: 20px;
+}

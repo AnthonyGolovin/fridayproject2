@@ -1,13 +1,30 @@
 body {
   background: rgb(36,0,0);
-background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(131,54,54,1) 0%, rgba(148,54,54,1) 0%, rgba(236,133,92,1) 36%, rgba(172,70,54,1) 74%);
+  background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(131,54,54,1) 0%, rgba(148,54,54,1) 0%, rgba(236,133,92,1) 36%, rgba(172,54,114,1) 79%);
 }
 .jumbotron {
-  border-width: 5px;
-  float; left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
   background-color: #262233
-  
+  float; left:
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #262233
+  float; left: 
 }
 h1 {
   color: white;
+  text-align: center;
+  font-size: 100px;
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
