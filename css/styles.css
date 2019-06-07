@@ -38,7 +38,7 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: blackboard;
+  color: Black;
   background-color: #72aeff;
 }
 .btn2 {
@@ -61,18 +61,25 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: blackboard;
+  color: Black;
   background-color: #72aeff;
+}
+.radio {
+  font-size: 20px;
 }
 .java {
 display: none;
+
 }
 .python {
 display: none;
+
 }
 .ruby {
 display: none;
+
 }
 .elite {
   display: none;
+
 }
