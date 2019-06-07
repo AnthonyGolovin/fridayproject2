@@ -1,0 +1,13 @@
+body {
+  background: rgb(36,0,0);
+background: linear-gradient(90deg, rgba(36,0,0,1) 0%, rgba(131,54,54,1) 0%, rgba(148,54,54,1) 0%, rgba(236,133,92,1) 36%, rgba(172,70,54,1) 74%);
+}
+.jumbotron {
+  border-width: 5px;
+  float; left;
+  background-color: #262233
+  
+}
+h1 {
+  color: white;
+}
