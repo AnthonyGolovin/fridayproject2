@@ -14,30 +14,26 @@ $("btn2").click(function(){
   }
   var finish = finished(q1, q2, q3, q4, q5);
 
-    if (finish){
+    if (finish === 10){
       $(".java").show();
       $(".python").hide();
       $(".ruby").hide();
       $(".elite").hide();
-    } else if (finish){
+    } else if (finish <===4){
       $(".python").show();
       $(".java").hide();
       $(".ruby").hide();
       $(".elite").hide();
-    } else if (finish){
+    } else if (finish >===6){
       $(".ruby").show();
       $(".java").hide();
       $(".python").hide();
       $(".elite").hide();
-    } else (finish){
+    } else (finish === 0,5){
       $(".elite").show();
       $(".java").hide();
       $(".python").hide();
       $(".ruby").hide();
-
-
-
     }
-}
-)
-}
+  });
+});
