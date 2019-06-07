@@ -8,28 +8,28 @@ $(".btn2").click(function(){
   var q4 = parseInt($("input:radio[name=q4]:checked").val());
   var q5 = parseInt($("input:radio[name=q5]:checked").val());
 
-  var finished = function(q1, q2, q3, q4, q5) {
+  var results = function(q1, q2, q3, q4, q5) {
     return q1 + q2 + q3 + q4 + q5;
 
   }
-  var finish = finished(q1, q2, q3, q4, q5);
-console.log(finish);
-    if (finish == 10){
+  var score = results(q1, q2, q3, q4, q5);
+
+    if (score == 10){
       $(".java").show();
       $(".python").hide();
       $(".ruby").hide();
       $(".elite").hide();
-    } else if (finish <=4){
+    } else if (score <=4){
       $(".python").show();
       $(".java").hide();
       $(".ruby").hide();
       $(".elite").hide();
-    } else if (finish >=6){
+    } else if (score >=6){
       $(".ruby").show();
       $(".java").hide();
       $(".python").hide();
       $(".elite").hide();
-    } else {
+    } else if (score = 0,5){
       $(".elite").show();
       $(".java").hide();
       $(".python").hide();
